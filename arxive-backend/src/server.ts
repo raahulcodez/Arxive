@@ -70,6 +70,62 @@ app.get('/get-contracts/:address', async (req: express.Request, res: express.Res
   }
 });
 
+app.get('/get-contract-details', async (req: express.Request, res: express.Response): Promise<any> => {
+  const { accountAddress, moduleName } = req.query;
+
+  if (!accountAddress || !moduleName) {
+    return res.status(400).json({ 
+      error: 'Both accountAddress and moduleName parameters are required' 
+    });
+  }
+
+  try {
+    const moduleResponse = await axios.get(
+      `${APTOS_NODE_URL}/accounts/${accountAddress}/module/${moduleName}`
+    );
+    const moduleData = moduleResponse.data;
+    let abiData = null;
+    try {
+      const abiResponse = await axios.get(
+        `${APTOS_NODE_URL}/accounts/${accountAddress}/module/${moduleName}/abi`
+      );
+      abiData = abiResponse.data;
+    } catch (abiError) {
+      console.warn('ABI not available for this contract');
+    }
+
+    let sourceCode = null;
+    try {
+      const sourceResponse = await axios.get(
+        `${APTOS_NODE_URL}/accounts/${accountAddress}/module/${moduleName}/source`
+      );
+      sourceCode = sourceResponse.data;
+    } catch (sourceError) {
+      console.warn('Source code not available for this contract');
+    }
+
+    res.json({
+      contractAddress: `${accountAddress}::${moduleName}`,
+      bytecode: moduleData.bytecode,
+      abi: abiData,
+      source: sourceCode,
+      metadata: {
+        accountAddress,
+        moduleName,
+        chainId: moduleData.chain_id,
+        timestamp: moduleData.timestamp
+      }
+    });
+  } catch (error: any) {
+    console.error('Error fetching contract details:', error);
+    res.status(500).json({
+      contractAddress: `${accountAddress}::${moduleName}`,
+      error: 'Failed to fetch contract details',
+      details: error.response?.data || error.message
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
