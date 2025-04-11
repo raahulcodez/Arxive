@@ -40,6 +40,36 @@ app.post('/connect-to-wallet', async (req: express.Request, res: express.Respons
   }
 });
 
+app.get('/get-contracts/:address', async (req: express.Request, res: express.Response): Promise<any> => {
+  const { address } = req.params;
+
+  if (!address) {
+    return res.status(400).json({ error: 'No wallet address provided' });
+  }
+
+  try {
+    const modulesResponse = await axios.get(`${APTOS_NODE_URL}/accounts/${address}/modules`);
+    const modules = modulesResponse.data;
+    const contracts = {
+      address: address,
+      modules: modules.map((m: any) => ({
+        bytecode: m.bytecode,
+        abi: m.abi
+      }))
+    };
+
+    res.json(contracts);
+  } catch (error) {
+    console.error('Error fetching contracts:', error);
+    res.status(500).json({
+      address: address,
+      error: 'Failed to fetch contracts',
+      resources: [],
+      modules: []
+    });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
