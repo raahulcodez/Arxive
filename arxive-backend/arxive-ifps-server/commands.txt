@@ -1,0 +1,3 @@
+curl -X POST http://172.16.44.147:3000/sendfile -F "file=@/Users/jayashre/Developer/VSC/Arxive/aptos-contracts/calculator.move" -F "walletAddress=?" 
+curl http://172.16.44.147:3000/viewfile?cid=QmS6EVTUviaCzaUkYVWKJt8JSbFEANY8hPD5MCoPeKf7Sz
+curl http://172.16.44.147:300/viewfile?cid=QmS6EVTUviaCzaUkYVWKJt8JSbFEANY8hPD5MCoPeKf7Sz&walletAddress=?
