@@ -1,5 +1,5 @@
 
-# ![Arxive-logo](arxive-chrome-extension/public/icons/icon16.png) Arxive Chrome Extension
+# ![Arxive-logo](public/icons/icon16.png)   Arxive Chrome Extension
 
 A lightweight companion for the Archiva platform, providing quick access to your Move smart contracts on Aptos blockchain.
 
