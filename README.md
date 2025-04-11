@@ -22,12 +22,12 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 ## Features
 
 - Smart Contract Editor with Solidity syntax highlighting and real-time error feedback
-- Instant Compile and Deploy to Aptos or Ethereum networks
+- Instant Compile and Deploy to Aptos
 - Contract Hub with 45+ pre-built contract templates
 - IPFS-based contract archiving with Proof-of-Archival
-- Multi-wallet integration: Petra, Pontem (Aptos), MetaMask (Ethereum)
+- Multi-wallet integration: Petra, Pontem (Aptos)
 - Real-time event logs and deployment analytics
-- ZK verification engine for provable off-chain archival (coming soon)
+- ZK verification engine for provable off-chain archival 
 - Dashboard with performance summaries, deployment history, and verification success rate
 - Searchable contract templates categorized by use case
 
@@ -128,10 +128,10 @@ Let me know if you want a badge header (GitHub stars, forks, license) or a versi
 
 ## Contributors
 
-- fromjyce – UI/UX and Analytics  
-- Nidhi045 – Wallet integration and deployment engine  
-- roahr – zk-SNARK and backend logic  
-- raahulcodez – Editor and Contract Hub  
+- https://github.com/fromjyce   
+- https://github.com/Nidhi045  
+- https://github.com/roahr  
+- https://github.com/raahulcodez 
 
 ## Roadmap
 
