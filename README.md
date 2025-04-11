@@ -38,7 +38,7 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 | Layer            | Technologies Used                            |
 |------------------|-----------------------------------------------|
 | Frontend         | Next.js, Tailwind CSS, TypeScript, Shadcn UI |
-| Smart Contracts  | Solidity (via Hardhat), Move (planned)       |
+| Smart Contracts  | Move (planned)       |
 | Wallets          | Aptos Wallet Adapter, Petra, Pontem, MetaMask|
 | Editor           | Monaco Editor                                |
 | Storage          | IPFS via Pinata                              |
@@ -55,14 +55,14 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 - Archive unused contracts to IPFS with hash tracking  
 - Monitor active deployments through the dashboard  
 - Use zk-SNARK (future feature) to prove deletion of archived contracts  
-- Switch between Ethereum and Aptos-compatible wallets  
+- Aptos-compatible wallets  
 
 ## Contributors
 
-- fromjyce – UI/UX and Analytics  
-- Nidhi045 – Wallet integration and deployment engine  
-- roahr – zk-SNARK and backend logic  
-- raahulcodez – Editor and Contract Hub  
+- https://github.com/fromjyce – UI/UX and Analytics  
+- https://github.com/Nidhi045 – Wallet integration and deployment engine  
+- https://github.com/roahr – zk-SNARK and backend logic  
+- https://github.com/raahulcodez – Editor and Contract Hub  
 
 ## Roadmap
 
