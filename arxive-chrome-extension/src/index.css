@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --border: 218 29% 17%;
+    --input: 218 29% 17%;
+    --ring: 0 0% 90%;
+    --foreground: 0 0% 100%;
+    --destructive: 0 84% 65%;
+    --destructive-foreground: 0 0% 100%;
+  }
+
+  body {
+    background-color: #121212;
+    color: hsl(var(--foreground));
+  }
+}
+
+:root {
+  --background: #121212;
+  --primary: #00E5FF; 
+  --primary-foreground: #121212; 
+  --secondary: #00BFA5;
+  --secondary-foreground: #121212; 
+  --accent: #9D5CFF; 
+  --accent-foreground: #121212;
+  --muted: #1A1A2E; 
+  --muted-foreground: #A0A0A0; 
+  --success: #39D98A; 
+  --success-foreground: #121212;
+  --warning: #FFC107;
+  --warning-foreground: #121212;
+  --sidebar: #1A1A2E;
+  --sidebar-foreground: #FFFFFF; 
+  --sidebar-border: #2A2A4E; 
+  --sidebar-ring: #00E5FF; 
+  --sidebar-accent: #2A2A4E; 
+  --sidebar-accent-foreground: #FFFFFF; 
+  --popover: #1A1A2E; 
+  --popover-foreground: #FFFFFF; 
+  --card: #1A1A2E;
+  --card-foreground: #FFFFFF;
+  --border: #2A2A4E;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(0, 229, 255, 0.5), 0 0 15px rgba(0, 229, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(0, 229, 255, 0.8), 0 0 30px rgba(0, 229, 255, 0.5);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(0, 229, 255, 0.5), 0 0 10px rgba(0, 229, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.8), 0 0 25px rgba(0, 229, 255, 0.5);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}

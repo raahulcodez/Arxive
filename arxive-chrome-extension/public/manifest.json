@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Arxive - Aptos Contract Manager",
+    "version": "2.0.0",
+    "description": "Smart contract management, deployment, and archive tool for Aptos Move language",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "android-chrome-512x512.png",
+        "48": "android-chrome-512x512.png",
+        "128": "android-chrome-512x512.png"
+      }
+    },
+    "icons": {
+      "16": "android-chrome-512x512.png",
+      "48": "android-chrome-512x512.png",
+      "128": "android-chrome-512x512.png"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
