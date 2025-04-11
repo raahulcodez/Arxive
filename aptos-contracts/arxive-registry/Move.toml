@@ -1,0 +1,16 @@
+[package]
+name = "registry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+archiva = "0x3a5f28c1accc5e1788be13509227ec8b46ee0a4341f9beb7c5bb65a6b8451ddf"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
