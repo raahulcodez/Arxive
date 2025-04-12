@@ -1,5 +1,5 @@
 
-# ![Arxive-logo](../../../arxive-chrome-extension/public/icons/icon16.png) IPFS File Storage Server
+# ![Arxive-logo](../../arxive-chrome-extension/public/icons/icon16.png) IPFS File Storage Server
 
 ## Features
 
