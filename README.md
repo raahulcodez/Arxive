@@ -1,3 +1,4 @@
+![arxive-logo](./arxive-chrome-extension/public/icons/icon16.png)
 # ARXIVE – Smart Contract Lifecycle Management Suite
 
 ARXIVE is a modern Web3 developer suite designed to manage the full lifecycle of smart contracts. It enables seamless contract creation, deployment, monitoring, and archival in one unified platform. Built with support for Ethereum and Aptos networks, ARXIVE simplifies how developers interact with smart contracts and helps reduce blockchain bloat through efficient archival and zero-knowledge proof-backed validation.
