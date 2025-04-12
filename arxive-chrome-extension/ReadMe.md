@@ -20,6 +20,6 @@ A lightweight companion for the Arxive platform, providing quick access to your 
 
 ## Usage
 
-Click the Archiva icon in your browser toolbar to access your contract metrics and tools. Use the bottom navigation to switch between Home, Contracts, Archive, and Code sections.
+Click the Arxive icon in your browser toolbar to access your contract metrics and tools. Use the bottom navigation to switch between Home, Contracts, Archive, and Code sections.
 
 The extension seamlessly integrates with the main Archiva application, allowing you to open the full dashboard when needed.
