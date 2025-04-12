@@ -70,10 +70,10 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 
 ## Contributors
 
-- https://github.com/fromjyce – UI/UX and Analytics  
-- https://github.com/Nidhi045 – Wallet integration and deployment engine  
-- https://github.com/roahr – zk-SNARK and backend logic  
-- https://github.com/raahulcodez – Editor and Contract Hub  
+Jayashre - https://github.com/fromjyce  
+Nidhi Gummaraju - https://github.com/Nidhi045  
+Roahith R - https://github.com/roahr   
+Raahul R - https://github.com/raahulcodez 
 
 ## Roadmap
 
