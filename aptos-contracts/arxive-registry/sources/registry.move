@@ -2,12 +2,13 @@ module archiva::registry {
     use std::string;
     use std::vector;
     use std::timestamp;
+    use std::signer;
 
-    struct ContractMetadata has key, store {
-        ipfs_cid: string::String,
-        module_name: string::String,
-        archived_at: u64,
-    }
+    struct ContractMetadata has key, store, copy {  // Add 'copy' ability
+    ipfs_cid: string::String,
+    module_name: string::String,
+    archived_at: u64,
+}
 
     struct ArchiveRegistry has key {
         entries: vector<ContractMetadata>,
@@ -19,7 +20,8 @@ module archiva::registry {
         });
     }
 
-    public entry fun archive_contract(account: &signer, ipfs_cid: string::String, module_name: string::String) {
+    public entry fun archive_contract(account: &signer, ipfs_cid: string::String, module_name: string::String)
+    acquires ArchiveRegistry {
         let metadata = ContractMetadata {
             ipfs_cid,
             module_name,
@@ -30,8 +32,10 @@ module archiva::registry {
         vector::push_back(&mut registry.entries, metadata);
     }
 
-    public fun get_archived(addr: address): &vector<ContractMetadata> {
+    public fun get_archived(addr: address): vector<ContractMetadata>
+    acquires ArchiveRegistry {
         let registry = borrow_global<ArchiveRegistry>(addr);
-        &registry.entries
+        *&registry.entries  // Explicitly dereference and copy
     }
+
 }
