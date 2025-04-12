@@ -10,12 +10,6 @@
 - Compile MOVE contracts with automatic Move.toml generation
 - Secure temporary file handling for contract compilation
 
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- Aptos CLI installed (for contract compilation)
-
 ## Installation
 
 1. Clone the repository
