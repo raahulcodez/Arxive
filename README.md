@@ -1,4 +1,15 @@
+![arxive-logo](./arxive-chrome-extension/public/icons/icon16.png)
 # ARXIVE – Smart Contract Lifecycle Management Suite
+<div align="left">
+
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
+![Aptos](https://img.shields.io/badge/Aptos-000000?style=for-the-badge&logo=aptos&logoColor=white)
+![Monaco](https://img.shields.io/badge/Monaco_Editor-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<!-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) -->
+</div>
 
 ARXIVE is a modern Web3 developer suite designed to manage the full lifecycle of smart contracts. It enables seamless contract creation, deployment, monitoring, and archival in one unified platform. Built with support for Ethereum and Aptos networks, ARXIVE simplifies how developers interact with smart contracts and helps reduce blockchain bloat through efficient archival and zero-knowledge proof-backed validation.
 
@@ -38,11 +49,11 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 | Layer            | Technologies Used                            |
 |------------------|-----------------------------------------------|
 | Frontend         | Next.js, Tailwind CSS, TypeScript, Shadcn UI |
-| Smart Contracts  | Move (planned)       |
+| Smart Contracts  | Move        |
 | Wallets          | Aptos Wallet Adapter, Petra, Pontem, MetaMask|
 | Editor           | Monaco Editor                                |
 | Storage          | IPFS via Pinata                              |
-| ZK Proof System  | zk-SNARKs, circom (in progress)              |
+| ZK Proof System  | zk-SNARKs              |
 | Hosting          | Vercel                                        |
 
 ---
