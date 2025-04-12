@@ -7,8 +7,8 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![IPFS](https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white)
 ![Aptos](https://img.shields.io/badge/Aptos-000000?style=for-the-badge&logo=aptos&logoColor=white)
-<!-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) -->
 ![Monaco](https://img.shields.io/badge/Monaco_Editor-0078D7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<!-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) -->
 </div>
 
 ARXIVE is a modern Web3 developer suite designed to manage the full lifecycle of smart contracts. It enables seamless contract creation, deployment, monitoring, and archival in one unified platform. Built with support for Ethereum and Aptos networks, ARXIVE simplifies how developers interact with smart contracts and helps reduce blockchain bloat through efficient archival and zero-knowledge proof-backed validation.
