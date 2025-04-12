@@ -1,4 +1,4 @@
-# MOVE Language Assistant Backend
+# ![arxive-logo](../../arxive-chrome-extension/public/icons/icon16.png) MOVE Language Assistant Backend
 
 Backend API server for MOVE language code assistance using Google's Gemini AI and Aptos integration.
 
