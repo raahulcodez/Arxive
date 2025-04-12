@@ -49,11 +49,11 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 | Layer            | Technologies Used                            |
 |------------------|-----------------------------------------------|
 | Frontend         | Next.js, Tailwind CSS, TypeScript, Shadcn UI |
-| Smart Contracts  | Move (planned)       |
+| Smart Contracts  | Move        |
 | Wallets          | Aptos Wallet Adapter, Petra, Pontem, MetaMask|
 | Editor           | Monaco Editor                                |
 | Storage          | IPFS via Pinata                              |
-| ZK Proof System  | zk-SNARKs, circom (in progress)              |
+| ZK Proof System  | zk-SNARKs              |
 | Hosting          | Vercel                                        |
 
 ---
