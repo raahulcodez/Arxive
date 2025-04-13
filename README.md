@@ -11,7 +11,7 @@
 <!-- ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white) -->
 </div>
 
-ARXIVE is a modern Web3 developer suite designed to manage the full lifecycle of smart contracts. It enables seamless contract creation, deployment, monitoring, and archival in one unified platform. Built with support for Ethereum and Aptos networks, ARXIVE simplifies how developers interact with smart contracts and helps reduce blockchain bloat through efficient archival and zero-knowledge proof-backed validation.
+ARXIVE is a modern Web3 developer suite designed to manage the full lifecycle of smart contracts. It enables seamless contract creation, deployment, monitoring, and archival in one unified platform. Built with support for Aptos networks, ARXIVE simplifies how developers interact with smart contracts and helps reduce blockchain bloat through efficient archival and zero-knowledge proof-backed validation.
 
 ---
 
@@ -32,7 +32,7 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 
 ## Features
 
-- Smart Contract Editor with Solidity syntax highlighting and real-time error feedback
+- Smart Contract Editor with Move syntax highlighting and real-time error feedback
 - Instant Compile and Deploy to Aptos
 - Contract Hub with 45+ pre-built contract templates
 - IPFS-based contract archiving with Proof-of-Archival
@@ -70,10 +70,10 @@ ARXIVE empowers developers and teams to scale decentralized infrastructure witho
 
 ## Contributors
 
-- https://github.com/fromjyce – UI/UX and Analytics  
-- https://github.com/Nidhi045 – Wallet integration and deployment engine  
-- https://github.com/roahr – zk-SNARK and backend logic  
-- https://github.com/raahulcodez – Editor and Contract Hub  
+Jayashre - https://github.com/fromjyce  
+Nidhi Gummaraju - https://github.com/Nidhi045  
+Roahith R - https://github.com/roahr   
+Raahul R - https://github.com/raahulcodez 
 
 ## Roadmap
 
